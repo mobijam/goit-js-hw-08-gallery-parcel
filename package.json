@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "predeploy": "parcel build src/index.html --public-url /goit-js-hw-08-gallery-parcel --no-content-hash",
+    "predeploy": "npm run build src/index.html --public-url /goit-js-hw-08-gallery-parcel --no-content-hash",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "url": "https://github.com/mobijam/goit-js-hw-08-gallery-parcel/issues"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.12.4"
   }
 }
