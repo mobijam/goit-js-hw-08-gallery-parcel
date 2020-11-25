@@ -25,7 +25,6 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "npm": "^6.14.9",
     "posthtml-include": "^1.6.0"
   }
 }
